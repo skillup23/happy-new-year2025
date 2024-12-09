@@ -1,15 +1,15 @@
 $(document).ready(function () {
   var count = 0;
 
-  $('.tarot-card').click(function () {
+  $(".tarot-card").click(function () {
     var card = $(this);
     if (count < 4) {
-      $(this).removeClass('top').addClass('bottom');
+      $(this).removeClass("top").addClass("bottom");
 
       count++;
     }
     if (count == 4) {
-      $('div').removeClass('bottom');
+      $("div").removeClass("bottom");
 
       count = 0;
     }
@@ -22,7 +22,7 @@ function shuffle(card) {
     card,
     0.6,
     {
-      x: 410,
+      x: 350,
       y: -15,
       ease: Expo.easeOut,
     },
