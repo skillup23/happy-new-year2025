@@ -59,12 +59,16 @@ img {
   right: 0;
   top: 0;
   bottom: 0;
-  border-radius: 40px;
+  border-radius: 30px;
 }
 
 .tarot-card {
-  width: 350px;
-  height: 601px;
+  /* width: 650px;
+  height: 1117px; */
+  /* width: 350px;
+  height: 601px; */
+  width: 35vh;
+  height: 59vh;
   margin: auto;
   position: absolute;
   left: 0;
@@ -73,10 +77,11 @@ img {
   bottom: 0;
   /* box-shadow: 0px 2px 30px #000; */
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 30px;
   /* border: 0.3em solid #fff; */
   z-index: 100;
-  background-color: transparent;
+  background-color: #9b8463;
+  /* background-color: rgba(0, 0, 0, 0.9); */
 }
 
 .tarot-card:nth-child(1) {
@@ -156,22 +161,33 @@ img {
   background-color: #000;
 }
 
-.desktop {
+/* .desktop {
   display: none;
 }
 .mobile {
   display: block;
-}
+} */
 
 @media (min-width: 640px) {
-  .desktop {
+  /* .desktop {
     display: block;
   }
   .mobile {
     display: none;
-  }
-  .mobile .tarot-card {
+  } */
+  /* .tarot-card {
     width: 650px;
     height: 1117px;
-  }
+  } */
+}
+
+@media (max-width: 640px) {
+  /* .tarot-card {
+    width: 350px;
+    height: 601px;
+  } */
+  /* .tarot-card {
+    width: 650px;
+    height: 1117px;
+  } */
 }
