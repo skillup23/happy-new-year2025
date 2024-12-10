@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 *,
 *:before,
@@ -11,11 +11,30 @@
 body {
   margin: 0;
   background-color: #000;
+  height: 100vh;
+  background-image: url(/img/fon6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  --lights: rgb(238, 255, 0);
+}
+
+body::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 h1 {
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin: auto;
   position: absolute;
@@ -59,7 +78,7 @@ img {
   right: 0;
   top: 0;
   bottom: 0;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .tarot-card {
@@ -67,8 +86,8 @@ img {
   height: 1117px; */
   /* width: 350px;
   height: 601px; */
-  width: 35vh;
-  height: 59vh;
+  width: 30vh;
+  height: 50vh;
   margin: auto;
   position: absolute;
   left: 0;
@@ -77,10 +96,10 @@ img {
   bottom: 0;
   /* box-shadow: 0px 2px 30px #000; */
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 10px;
   /* border: 0.3em solid #fff; */
   z-index: 100;
-  background-color: #9b8463;
+  background-color: #262223;
   /* background-color: rgba(0, 0, 0, 0.9); */
 }
 
@@ -161,6 +180,17 @@ img {
   background-color: #000;
 }
 
+.tarot-text p {
+  font-size: 30px;
+  color: #fff;
+}
+.neonText {
+  font-size: 30px;
+  color: #fff;
+  /* text-shadow: 0 0 0.2vh var(--lights), 0 0 0.2vh var(--lights),
+    0 0 0.2vh var(--lights), 0 0 0.2vh var(--lights), 0 0 0.6vh var(--lights); */
+}
+
 /* .desktop {
   display: none;
 }
@@ -181,7 +211,7 @@ img {
   } */
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1000px) {
   /* .tarot-card {
     width: 350px;
     height: 601px;
@@ -190,4 +220,8 @@ img {
     width: 650px;
     height: 1117px;
   } */
+  body {
+    /* background-image: url(/img/fon5mob.jpg); */
+    background-size: 250%;
+  }
 }
