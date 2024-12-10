@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 *,
 *:before,
@@ -12,7 +12,7 @@ body {
   margin: 0;
   background-color: #000;
   height: 100vh;
-  background-image: url(/img/fon6.jpg);
+  background-image: url(/img/fon5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +20,7 @@ body {
 }
 
 body::before {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 100%;
@@ -34,7 +34,7 @@ body::before {
 
 h1 {
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   margin: auto;
   position: absolute;
@@ -181,7 +181,9 @@ img {
 }
 
 .tarot-text p {
-  font-size: 30px;
+  margin-top: 37vh;
+  margin-left: 4vw;
+  font-size: 26px;
   color: #fff;
 }
 .neonText {
@@ -221,7 +223,17 @@ img {
     height: 1117px;
   } */
   body {
-    /* background-image: url(/img/fon5mob.jpg); */
-    background-size: 250%;
+    background-image: url(/img/fon5mob.jpg);
+    background-size: 100%;
+  }
+  .container {
+    transform: scale(1);
+  }
+  .tarot-text p {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 36px;
+    transform: scale(0.9);
   }
 }
