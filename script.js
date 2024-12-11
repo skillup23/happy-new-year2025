@@ -48,7 +48,7 @@ function changeText(count) {
       '<p class="neonText"><span>Четверка жезлов:</span> <br>символ места и еды. <br> <br>В ресторане Villa Verde<br>Атмосфера и уют<br>Тут изысканные блюда<br>И спиртное разольют!</p>';
   } else if (count == 2) {
     myDiv.innerHTML =
-      '<p class="neonText"><span>Колесо Фортуны:</span> <br>символ удачи и храбрости. <br> <br>Сердечно АНБ желает вам<br>В новом следующим году<br>В бизнесе, в семье, в здоровье<br>Покорить недосягаемую высоту!</p>';
+      '<p class="neonText"><span>Колесо Фортуны:</span> <br>символ удачи и храбрости. <br> <br>В счастливом следующем году<br>Наш АНБ желает вам<br>Стремиться только в высоту<br>К успеху, целям и мечтам!</p>';
   } else if (count == 3) {
     myDiv.innerHTML =
       '<p class="neonText"><span>Десятка кубков:</span> <br>символ радости и веселья. <br> <br>Ждёт вас праздник удалой,<br>Смех и радость, песни звонко!<br>Загудим большой толпой,<br>Сердце биться будет громко!</p> <button class="button-finish" onclick="window.myDialog3.show()">Посмотреть итог</button>';
