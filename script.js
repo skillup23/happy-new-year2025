@@ -2,16 +2,16 @@
 $(document).ready(function () {
   var count = 0;
 
-  $('.tarot-card').click(function () {
+  $(".tarot-card").click(function () {
     var card = $(this);
     changeText(count);
     if (count < 4) {
-      $(this).removeClass('top').addClass('bottom');
+      $(this).removeClass("top").addClass("bottom");
 
       count++;
     }
     if (count == 4) {
-      $('div').removeClass('bottom');
+      $("div").removeClass("bottom");
 
       count = 0;
     }
@@ -38,7 +38,7 @@ function shuffle(card) {
 
 // **************************Переключение текста - стихов********************************
 function changeText(count) {
-  const myDiv = document.getElementById('myDiv');
+  const myDiv = document.getElementById("myDiv");
 
   if (count == 0) {
     myDiv.innerHTML =
@@ -58,9 +58,9 @@ function changeText(count) {
 }
 
 // **************************Выбор ответов********************************
-ul = document.querySelector('.modal_answer_list');
+ul = document.querySelector(".modal_answer_list");
 ul.onclick = function (event) {
-  document.querySelector('.modal_button2').disabled = false;
+  document.querySelector(".modal_button2").disabled = false;
   // if (event.target.tagName != 'LI') return;
   // if (event.target.tagName != 'span') return;
 
@@ -77,21 +77,21 @@ ul.onmousedown = function () {
 };
 
 function toggleSelect(li) {
-  li.classList.toggle('answer_active');
+  li.classList.toggle("answer_active");
 }
 
 function singleSelect(li) {
-  let selected = ul.querySelectorAll('.answer_active');
+  let selected = ul.querySelectorAll(".answer_active");
   for (let elem of selected) {
-    elem.classList.remove('answer_active');
+    elem.classList.remove("answer_active");
   }
-  li.classList.add('answer_active');
+  li.classList.add("answer_active");
 }
 
 // **************************Второе модальное окно********************************
 document
-  .querySelector('.modal_button2')
-  .addEventListener('click', function (e) {
+  .querySelector(".modal_button2")
+  .addEventListener("click", function (e) {
     window.myDialog.close();
     window.myDialog2.show();
     animate();
@@ -102,11 +102,11 @@ document
   });
 
 const elts = {
-  text1: document.getElementById('text1'),
-  text2: document.getElementById('text2'),
+  text1: document.getElementById("text1"),
+  text2: document.getElementById("text2"),
 };
 
-const texts = ['45012364', 'Карты', 'дали', 'свой', 'ответ!', '6429613'];
+const texts = ["45012364", "Карты", "дали", "свой", "ответ!", "6429613"];
 
 const morphTime = 1;
 const cooldownTime = 0.4;
@@ -148,11 +148,11 @@ function setMorph(fraction) {
 function doCooldown() {
   morph = 0;
 
-  elts.text2.style.filter = '';
-  elts.text2.style.opacity = '100%';
+  elts.text2.style.filter = "";
+  elts.text2.style.opacity = "100%";
 
-  elts.text1.style.filter = '';
-  elts.text1.style.opacity = '0%';
+  elts.text1.style.filter = "";
+  elts.text1.style.opacity = "0%";
 }
 
 function animate() {

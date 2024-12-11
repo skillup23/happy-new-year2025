@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Moonrocks&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&family=Prosto+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Moonrocks&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&family=Prosto+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Moonrocks&display=swap");
 
 *,
 *:before,
@@ -17,7 +17,7 @@ body {
   margin: 0;
   background-color: #000;
   height: 100vh;
-  background-image: url(/img/fon5-1.jpg);
+  background-image: url(https://skillup23.github.io/happy-new-year2025/img/fon5-1.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,7 +29,7 @@ body:has(dialog[open]) {
 }
 
 body::before {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 100%;
@@ -43,7 +43,7 @@ body::before {
 
 h1 {
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   margin: auto;
   position: absolute;
@@ -204,7 +204,7 @@ img {
 .tarot-text {
   display: block;
   width: 30%;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
 
 .tarot-text p {
@@ -251,7 +251,8 @@ img {
   right: 0;
   top: 0;
   bottom: 0;
-  background-image: url(/img/fon6light.jpg);
+  background-image: url(https://skillup23.github.io/happy-new-year2025/img/fon6light.jpg);
+  /* background-image: url(/img/fon5-1.jpg); */
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.9);
@@ -289,14 +290,14 @@ img {
 }
 .modal h2 {
   font-size: 60px;
-  font-family: 'Prosto One', cursive;
+  font-family: "Prosto One", cursive;
 }
 
 .modal h3 {
   padding: 20px;
   font-size: 36px;
   text-align: center;
-  font-family: 'Prosto One', cursive;
+  font-family: "Prosto One", cursive;
   color: #ffffff;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.5);
@@ -322,7 +323,7 @@ img {
   width: 100%;
   font-size: 20px;
   padding: 20px;
-  font-family: 'Prosto One', cursive;
+  font-family: "Prosto One", cursive;
 }
 /* .modal p {
   width: 100%;
@@ -338,7 +339,7 @@ img {
   font-size: 24px;
   border-radius: 10px;
   cursor: pointer;
-  font-family: 'Prosto One', cursive;
+  font-family: "Prosto One", cursive;
 }
 .modal button:hover {
   color: #fff;
@@ -367,7 +368,7 @@ img {
   width: 100%;
   display: inline-block;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 80pt;
 
   text-align: center;
@@ -526,28 +527,31 @@ img {
     height: 1117px;
   } */
   body {
-    background-image: url(/img/fon5mob-1.jpg);
+    background-image: url(https://skillup23.github.io/happy-new-year2025/img/fon5mob-1.jpg);
     background-size: 100%;
+    background-position: top;
   }
   .container {
     transform: scale(1);
-    margin-top: 7vh;
+    margin-top: 5vh;
   }
   .tarot-card {
     top: 50px;
+    width: 25vh;
+    height: 40vh;
   }
   .tarot-text {
     width: 100%;
-    margin-top: -4vh;
+    margin-top: -2vh;
   }
   .tarot-text span {
-    font-size: 36px;
+    font-size: 32px;
   }
   .tarot-text p {
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 0;
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
     transform: scale(0.9);
   }
   .modal_overlay {
@@ -555,30 +559,41 @@ img {
     background-repeat: no-repeat;
     background-color: #000;
     background-size: 200%;
-    background-position: 50%;
+    background-position: top;
   }
   .modal {
-    padding: 20px;
-  }
-  .modal_container {
     padding: 0;
   }
+  #container_text {
+    top: -55vh;
+  }
+  #text1,
+  #text2 {
+    font-size: 70px;
+  }
+  .modal_container {
+    padding: 15px;
+  }
   .modal h2 {
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
   .modal p {
-    font-size: 16px;
+    font-size: 14px;
+    padding: 15px;
   }
   .button-finish {
     position: relative;
-    font-size: 22px;
-    margin: 30vw;
-    margin-top: 52vh;
+    font-size: 18px;
+    margin-left: 31vw;
+    margin-top: 56vh;
     padding: 10px;
     z-index: 1000;
   }
   .modal h3 {
     font-size: 26px;
+    margin-top: -50vh;
   }
 }
