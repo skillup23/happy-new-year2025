@@ -24,7 +24,7 @@ function shuffle(card) {
     card,
     0.6,
     {
-      x: 350,
+      x: 100,
       y: -15,
       ease: Expo.easeOut,
     },

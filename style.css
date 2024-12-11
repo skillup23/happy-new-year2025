@@ -533,7 +533,8 @@ img {
   }
   .container {
     transform: scale(1);
-    margin-top: 5vh;
+    /* margin-top: 10vh; */
+    height: 100vh;
   }
   .tarot-card {
     top: 50px;
@@ -542,7 +543,8 @@ img {
   }
   .tarot-text {
     width: 100%;
-    margin-top: -2vh;
+    /* margin-top: -2vh; */
+    margin-top: 30px;
   }
   .tarot-text span {
     font-size: 32px;
@@ -565,7 +567,7 @@ img {
     padding: 0;
   }
   #container_text {
-    top: -55vh;
+    top: -550px;
   }
   #text1,
   #text2 {
@@ -585,15 +587,16 @@ img {
     padding: 15px;
   }
   .button-finish {
-    position: relative;
+    position: absolute;
+    bottom: 70px;
     font-size: 18px;
     margin-left: 31vw;
-    margin-top: 56vh;
+    /* margin-top: 56vh; */
     padding: 10px;
     z-index: 1000;
   }
   .modal h3 {
     font-size: 26px;
-    margin-top: -50vh;
+    margin-top: -500px;
   }
 }
