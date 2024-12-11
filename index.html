@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>CodePen - Click Responsive Shuffling Tarot Cards w/GSAP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <title>Приглашение на корпоратив 2025</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -35,12 +39,109 @@
 
       <div class="tarot-text" id="myDiv">
         <p class="neonText">
-          Десятка кубков: символ радости и веселья. <br />
+          <span>Десятка кубков:</span> <br />символ радости и веселья. <br />
           <br />Ждёт вас праздник удалой,<br />Смех и радость, песни звонко!<br />Загудим
           большой толпой,<br />Сердце биться будет громко!
         </p>
       </div>
     </div>
+
+    <!-- <div class="modal_overlay">
+      <div></div>
+    </div> -->
+
+    <dialog id="myDialog" aria-label="Спроси карты" open class="modal_overlay">
+      <div class="modal">
+        <div class="modal_container">
+          <h2 class="text-animate">
+            <span>Задайте</span> <span>свой</span> <span>вопрос</span>
+          </h2>
+          <ul class="modal_answer_list text-animate2">
+            <p class="modal_answer">
+              1. В офисе обсуждают корпоратив. Интересно, где он будет и когда?
+            </p>
+            <p class="modal_answer">
+              2. "Копировать - вставить", "копировать - вставить"... Где смогу
+              "выпить - танцевать"?
+            </p>
+            <p class="modal_answer">
+              3. Так скучаю по своим коллегам. Вижу каждый день и скучаю. Где
+              можно скучать сильнее?
+            </p>
+            <p class="modal_answer">
+              4. Я каждый день пою, жонглирую, танцую. ГДЕ МОИ ОВАЦИИ?
+            </p>
+
+            <!-- <li class="modal_answer">
+              <span>1.</span> <span>В офисе</span> <span>кто-то обсуждал</span>
+              <span>корпоратив.</span> <span>Интересно,</span>
+              <span>правда это</span> <span>или вымысел?</span>
+            </li>
+            <li class="modal_answer">
+              <span>2.</span> <span>"Копировать</span>
+              <span>- вставить",</span> <span>"копировать</span>
+              <span>- вставить"...</span> <span>Где</span> <span>смогу</span>
+              <span>"выпить -</span> <span>танцевать"?</span>
+            </li>
+            <li class="modal_answer">
+              <span>3.</span> <span>Так скучаю</span> <span>по своим</span>
+              <span>коллегам.</span> <span>Вижу каждый</span>
+              <span>день и скучаю.</span> <span>Где можно</span>
+              <span>скучать </span> <span>сильнее?</span>
+            </li>
+            <li class="modal_answer">
+              <span>4.</span> <span>Я каждый</span> <span>день пою,</span>
+              <span>жонглирую,</span> <span>танцую.</span> <span>ГДЕ</span>
+              <span>МОИ</span> <span>ОВАЦИИ?</span>
+            </li> -->
+          </ul>
+
+          <button class="modal_button2" disabled>Задать вопрос</button>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog
+      id="myDialog2"
+      aria-label="Карты дали свой ответ"
+      class="modal_overlay modal_overlay2"
+    >
+      <div class="modal">
+        <!-- <h2>Карты дали свой ответ...</h2> -->
+        <div id="container_text">
+          <span id="text1"></span>
+          <span id="text2"></span>
+        </div>
+
+        <svg id="filters">
+          <defs>
+            <filter id="threshold">
+              <feColorMatrix
+                in="SourceGraphic"
+                type="matrix"
+                values="1 0 0 0 0
+                        0 1 0 0 0
+                        0 0 1 0 0
+                        0 0 0 255 -140"
+              />
+            </filter>
+          </defs>
+        </svg>
+      </div>
+    </dialog>
+
+    <dialog id="myDialog3" aria-label="Итог" class="modal_overlay">
+      <div class="modal">
+        <h3>
+          Ждем всех гостей<br />
+          19 декабря 17:00<br />
+          Ресторан Villa Verde<br />
+          <a href="https://yandex.ru/profile/229257205110" target="_blank"
+            >ул. Мира, 60</a
+          >
+        </h3>
+      </div>
+    </dialog>
 
     <!-- partial -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
