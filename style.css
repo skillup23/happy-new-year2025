@@ -515,14 +515,6 @@ img {
 }
 
 @media (max-width: 1000px) {
-  /* .tarot-card {
-    width: 350px;
-    height: 601px;
-  } */
-  /* .tarot-card {
-    width: 650px;
-    height: 1117px;
-  } */
   body {
     background-image: url(https://skillup23.github.io/happy-new-year2025/img/fon5mob-1.jpg);
     background-size: 100%;
@@ -534,9 +526,9 @@ img {
     height: 100vh;
   }
   .tarot-card {
-    top: 50px;
-    width: 25vh;
-    height: 40vh;
+    top: 150px;
+    width: 23vh;
+    height: 38vh;
   }
   .tarot-text {
     position: absolute;
@@ -550,7 +542,7 @@ img {
     font-size: 32px;
   }
   .tarot-text p {
-    margin-top: 5px;
+    margin-top: 5%;
     margin-left: 0;
     text-align: center;
     font-size: 22px;
