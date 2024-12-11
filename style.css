@@ -527,10 +527,10 @@ img {
   .container {
     transform: scale(1);
     /* margin-top: 10vh; */
-    height: 100vh;
+    height: 90vh;
   }
   .tarot-card {
-    top: 200px;
+    top: 150px;
     width: 23vh;
     height: 38vh;
   }
@@ -539,19 +539,20 @@ img {
     top: 60px; */
     width: 100%;
     /* height: 100vh; */
-    margin-top: 100px;
+    margin-top: 50px;
     /* margin-top: -2vh; */
     /* margin-top: 30px; */
   }
   .tarot-text span {
-    font-size: 32px;
+    font-size: 36px;
   }
   .tarot-text p {
     margin-top: 5px;
     margin-left: 0;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
     transform: scale(0.9);
+    line-height: 1;
   }
   .modal_overlay {
     background-size: contain;
